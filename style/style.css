@@ -44,6 +44,7 @@ padding: 25px 78px;
 
 text-align: center;
 text-transform: uppercase;
+text-decoration: none;
 
 color: white;
 background-color: #eec643;
@@ -275,7 +276,7 @@ font-size: 16px;
 line-height: 22px;
 
 min-width: 195px;
-height: 133px;
+\
 }
 
 .promo__title--desktop {
@@ -327,10 +328,18 @@ display: none;
 }
 
 .article__title--all {
+font-family: PT Sans, serif;
 font-size: 16px;
 font-weight: normal;
 
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+
+color: black;
+
 text-transform: uppercase;
+text-decoration: none;
 }
 
 .directions__article--guitar {
@@ -422,6 +431,7 @@ padding-right: 50px;
 transform: rotate(-90deg);
 text-align: left;
 text-transform: uppercase;
+text-decoration: none;
 
 color: white;
 background-color: #eec643;
@@ -848,6 +858,8 @@ font-family: PT Sans, sans-serif;
 font-size: 30px;
 font-weight: bold;
 text-transform: none;
+
+color: white;
 }
 
 .article__text {
